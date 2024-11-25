@@ -1,0 +1,109 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  
+}
+
+.footer{
+  margin-top: 400px;
+}
+.home {
+  font-family: Arial, sans-serif;
+  background-color: #192026;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 1523px;
+  overflow-x: hidden;
+}
+
+.explore {
+  margin-top: -50px;
+  padding: 20px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.banner {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  height: 500px;
+  width: 95%; 
+  border-radius: 8px;
+  justify-content: center;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px; 
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+
+.new-release {
+  margin-top: -90px;
+  height: 500px;
+  width: 1440px;
+  margin-left: 30px;
+}
+
+.new-release h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  margin-top: 200px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+
+.ant-modal {
+  background-color: #192026;
+}
+
+.ant-modal-title {
+  color: white;
+}
+
+.ant-btn {
+  background-color: #1A73E8; 
+  color: white;
+  border-radius: 5px;
+}
+
+
+.modal-banner-image{
+  width: 100%;
+  height: auto;
+}

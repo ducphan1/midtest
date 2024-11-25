@@ -1,0 +1,25 @@
+.anime-card {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: calc(33.333% - 10px); 
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+  }
+  
+  .anime-card:hover {
+    background-color: #555;
+  }
+  
+  .anime-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .anime-episode {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
